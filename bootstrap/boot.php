@@ -3,7 +3,7 @@
 namespace Best;
 
 //Register autoload mechanism
-require __DIR__ . '/../vendor/bestphp/src/library/Loader.php';
+require __DIR__ . '/../bestphp/src/library/Loader.php';
 
 $loader = new Loader(__DIR__ . '/../autoload');  //TODO how to use debug model
 $loader->addLoader(['Psr4']);
