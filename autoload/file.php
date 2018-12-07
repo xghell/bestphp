@@ -1,5 +1,6 @@
 <?php
 
-return [
 
+return [
+    'helper'      => BASE_PATH . '/boot/helper.php'
 ];
