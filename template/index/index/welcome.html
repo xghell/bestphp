@@ -1,0 +1,9 @@
+@section('header')
+@foreach($items as $key => $value)
+@if(1 === 1)
+<p>welcome, {{$name}}</p>
+@endif
+@endforeach
+@component('alert', ['color'  => 'red', 'alert' => 'This is alert'])
+@component('message')
+@section('footer')

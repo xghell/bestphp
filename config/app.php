@@ -1,4 +1,5 @@
 <?php
+
 return [
-    'app_debug' => true,
+    'app_debug'           => true,
 ];

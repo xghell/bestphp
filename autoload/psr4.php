@@ -1,6 +1,9 @@
 <?php
 
 return [
-    'Best\\' => [BASE_PATH . '/bestphp'],
-    'App\\'  => [BASE_PATH . '/app']
+    'App\\'            => [BASE_PATH . '/app'],
+    'Best\\'           => [
+        BASE_PATH . '/bestphp/kernel',
+        BASE_PATH . '/bestphp/foundation',
+    ],
 ];

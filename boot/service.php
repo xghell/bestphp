@@ -1,8 +1,6 @@
 <?php
 
 return [
-    \Best\Kernel\Service\FilesystemService::class,
-    \Best\Kernel\Service\ConfigurationService::class,
-    \Best\Kernel\Service\HttpService::class,
-    \Best\Kernel\Service\RouteService::class,
+    \Best\Service\FoundationService::class,
+    \Best\Service\RouteService::class,
 ];
